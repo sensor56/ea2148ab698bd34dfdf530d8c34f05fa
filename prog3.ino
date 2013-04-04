@@ -18,7 +18,6 @@ void setup()
 
   pinMode(10, OUTPUT); // laisser la broche SS en sortie - obligatoire avec librairie SD
 
-  //if (!SD.begin(10)) { // si initialisation avec broche 4 en tant que CS n'est pas réussie
  if (!card.init(SPI_HALF_SPEED, 10)) {
 
     Serial.println("Echec initialisation!"); // message port Série
