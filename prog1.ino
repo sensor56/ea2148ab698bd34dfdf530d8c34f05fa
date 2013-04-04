@@ -5,7 +5,7 @@
 // code : 18. Exemple d'utilisation SPI : Communiquer directement avec une mémoire Eeprom SPI 
 
 // --- Inclusion des librairies ---
-#include <SPI.h> // Librairie pour communication SPI
+#include <SPI.h> // Librairie pour communication SPI 
 
 
 // --- Déclaration des constantes utiles ---
